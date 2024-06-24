@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url("assets/background.png");
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  background-size: contain;
+  height: 100vh;
+}
+
+.logo {
+  margin: 20px 20px 50px 20px;
+  height: 20px;
+}
+
+.left-section {
+  padding: 25px;
+}
+
+.title1 {
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 50px;
+  color: white;
+}
+
+.title2 {
+  margin-left: 50px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.form-card>.sub-title {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.form-card>.tabs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-card>.tabs>.tab {
+  border-bottom: 1px solid grey;
+  padding: 8px 25px;
+  color: #b3b3b3;
+}
+
+.form-card>.tabs>.tab:hover {
+  border-bottom: 3px solid #004a8e;
+  border-radius: 1px;
+}
+
+.form-card {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  position: absolute;
+  border-radius: 20px;
+  right: 0;
+  top: 5%;
+  padding: 20px;
+  margin: 60px 0 10px 0;
+  margin-right: 60px;
+  width: 550px;
+  height:500px;
+}
+
+.form-card>.form-body {
+  padding: 20px 25px;
+}
+
+.grp>.title>code {
+  color: red;
+}
+
+.grp>div>input {
+  padding: 13px 20px;
+  width: 200px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+.grp>.title5{
+  padding: 13px 20px;
+  width: 200px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+.form-body>.row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.grp>.title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.checkbox1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+}
+
+.checkbox1>.checkbox {
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.checkbox1{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.last {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  border: 2px solid #004a8e;
+  background-color: #f7fafc;
+  border-radius: 10px;
+  padding: 20px;
+  color: #4a5568 !important;
+  font-size: 16px;
+  margin-right: 85px;
+
+
+}
+
+.last>a {
+  text-decoration: none;
+  color: #004a8e;
+  font-weight: 700;
+}
+
+.last>a:hover {
+  text-decoration: underline;
+}
+
+.btn>button {
+  padding: 10px 40px;
+  background-color: #004a8e;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #004a8e;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
